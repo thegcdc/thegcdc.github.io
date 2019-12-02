@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+  <div class="bg-column">
+    <section id="about" class="container py4 mt2 px0">
+      <div class="clearfix mxn2">
+       <div class="col-11 sm-col-11 mx-auto">
+       	{% if page.image %}
+       	<img src="{{ site.url }}/image/{{ page.image }}" width="900px" height="400px" class="px3">
+           {% else %}
+             <img src="{{ site.url }}/image/pattern_2.jpg" width="900px" height="400px" class="px3">
+             {% endif %}
+          <h1 class="responsive-h1 mt4 px3 post-title caps">{{ page.title }}</h1>
+          <h3 class="responsive-h3 caps headline px3 mb">
+          {% if page.authors %}
+              {% for author_id in page.authors %}
+                {% assign author = site.authors[author_id] %}
+                     <a class="post-author-link" target="_blank" href="{{author.link}}">{{author.name}}</a>{% if forloop.last == false -%}, {% endif %}
+              {% endfor %}
+            {% else %}
+              {% if page.author %}
+                {% assign author_id = page.author %}
+              {% endif %}
+            {% else %}
+              {% assign author_id = site.default_author %}
+            {% endif %}
+        {% assign author = site.authors[author_id] %}|
+        {% if page.date %}
+        {{ page.date | date: '%B %d, %Y' }}
+        {% endif %}</h3>
+            <div class="sm-col sm-col-11 px3 py0">
+              <p class="">{{ page.content }}</p>
+             
+            </div>
+        </div> 
+    </section>
+  </div>
+

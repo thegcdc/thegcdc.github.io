@@ -1,0 +1,34 @@
+# Site settings
+title: GCDC
+email: anouk@centerfordigitalcommons.org
+description: building infrastructures for the common governance of digital resources
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+
+authors:
+  all:
+    name: Data Critiques
+    username: all
+    email: hello@anoukruhaak.com
+    image: none
+    about: A Community Project of the International Centre for Data Rights, Custody and Access 
+    link: none
+
+  anouk:
+    name: Anouk Ruhaak
+    username: anouk
+    email: hello@anoukruhaak.com
+    about: Data governance researcher 
+    link: http://twitter.com/anoukruhaak
+
+  josh:
+    name: Josh McKenty
+    username: josh
+    email: jmckenty@gmail.com
+    link: https://www.twitter.com/jmckenty
+
+default_author: all

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GCDC</title>
+    <description>building infrastructures for the common governance of digital resources</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 02 Dec 2019 00:01:22 -0800</pubDate>
+    <lastBuildDate>Mon, 02 Dec 2019 00:01:22 -0800</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Data Trusts: Why, What and How</title>
+        <description>&lt;p&gt;“If no one reads the terms and conditions, how can they continue to be the backbone of the  internet?” asks the New York Times editorial board in an article titled &lt;a href=&quot;https://www.nytimes.com/2019/02/02/opinion/internet-facebook-google-consent.html&quot;&gt;‘How Silicon Valley puts the ‘con’ in consent’&lt;/a&gt;. Despite data protection laws becoming commonplace, we have yet to find consent models beyond those that rely on individual users blindly clicking ‘Agree’ or opting into cookies they hardly understand. Online consent is severely broken and the wreckage extends beyond the impossible-to-navigate consent windows. &lt;a href=&quot;https://www.amacad.org/publication/contextual-approach-privacy-online&quot;&gt;Helen Nissenbaum&lt;/a&gt; argues that the model of notice-and-consent is inherently flawed as we can never fully understand the repercussions of data about us being used in different contexts:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“Proposals to improve and fortify notice-and-consent, such as clearer privacy policies and fairer information practices, will not overcome a fundamental flaw in the model, namely, its assumption that individuals can understand all facts relevant to true choice at the moment of pair-wise contracting between individuals and data gatherers.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;One of the underlying problems, Nissenbaum observes, is that consent is not meaningful when we cannot trust the system in place to protect our rights. We can, for example, meaningfully consent to have a surgeon operate on our kidneys; not because we have a perfect understanding of what such an operation might entail, but because we trust the medical system works and protects us. The only decisions left for us are not the specific way we want to surgeon to cut our kidney, but whether we have any problems with blood transfusions or resuscitation. Decisions that depend on our norms and beliefs; things we understand.&lt;/p&gt;
+
+&lt;p&gt;“Choosing is not mere picking but requires that the subject understands that to which he or she is consenting”. Especially when considering raw data, like the number of keystrokes, or seconds spend staring at a screen, context is missing. The data lacks sufficient meaning to allow us to understand possible privacy implications of sharing such data. Only once we think through specific use cases and combinations of data do we start to understand how sharing it could help or hinder us. Such an analysis, however, requires extensive time and domain knowledge.&lt;/p&gt;
+
+&lt;p&gt;But we should not have to be experts to make decisions about how data about us is collected and shared. Likewise, we should not have to trust Facebook to make those decisions for us. One solution is to play safe, and severely limit the data that is collected about us. This is the approach taken by the General Data Protection Regulation (GDPR) that came into force in Europe last year. Whilst an improvement, this defensive attitude towards data sharing does not help us in circumstances where we might want to share more data about ourselves: where doing so is in both our personal and collective interests.&lt;/p&gt;
+
+&lt;h2 id=&quot;consent-proxies&quot;&gt;Consent proxies&lt;/h2&gt;
+
+&lt;p&gt;Enter consent proxies: organisations to make consent decisions on your behalf. These could be any organisation you trust to make decisions for you on specific types of data about you. For instance, someone infected with HIV might have specific privacy preferences, ranging from a desire to keep this information private, to wishes to help research towards better treatments. HIV advocacy bodies would potentially be well-suited to understand the context necessary to navigate these concerns, which are both complex and interlinked. In a similar vein, trade unions could be well-positioned to create consent profiles that would specifically deal with data collection and sharing relating to future employment, or wage calculations.&lt;/p&gt;
+
+&lt;p&gt;Consent proxies, therefore, are organisations that hold expertise in specific domains (e.g. health, mobility, human rights) and use that expertise to draft consent profiles regarding data collection and usage that individuals can adopt as their own. These profiles reflect the ethical considerations and risk assessments performed by the consent proxies, as well as the values and norms the proxy stands for. The trust placed in consent proxies is founded in their proven capacity for understanding the specific norms, values, needs and expectations of a specific demographic, given a specific context.&lt;/p&gt;
+
+&lt;h2 id=&quot;requirements-for-effective-consent-proxies&quot;&gt;Requirements for effective consent proxies&lt;/h2&gt;
+&lt;p&gt;In order for a consent proxy to effectively address the problems laid out above, it needs to fulfill a number of roles and requirements:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Consent profiles should be usable&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;The user should be presented, by the proxy they are entrusting with their data decisions, with a menu of possible consent profiles. The consent profiles should provide an easy overview of the main norms, functions and goals that underlies them, as well as a clear overview of the types of data the consent profile cover. It thereby replaces the spider web of choices users are currently faced with (for instance in the form of Facebook’s privacy settings). Underneath this easy-to-navigate profile sits a fine-grained set of rules that govern the relationship between the platform users and those collecting, using and sharing data about them.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Variety of consent&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;To reflect the fact that human beings hold many identities that are subject to change, we should be able to a) choose from a wide range of consent proxies and b) elect different consent proxies to govern different types of data, as well as different types of concerns. For instance, we might want to have health data about us governed by both our GP and the Diabetes Foundation. As such, different profiles could end up governing the same piece of data. In those cases it makes sense for the most stringent privacy preferences to become the default, unless otherwise stipulated. In order to automatically negotiate the differences between various profiles, their rules should be available in a computer readable format. The result of these various compatible data proxies and profiles, working in concert is a set of API rules dictating what data can and cannot be collected, stored and used by data users, and under what conditions.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Low barriers of entry and exit&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;As our values and circumstances are subject to change, we should be able to switch between consent proxies easily. This, in addition, allows us to vote with our feet.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;would-consent-proxies-work-in-the-wild&quot;&gt;Would consent proxies work in the wild?&lt;/h2&gt;
+
+&lt;p&gt;At this point, the careful reader will wonder why any platform or service would agree to have their activities curtailed by consent profiles, when at the moment they have free rein. Fair question. For the moment, consent profiles are likely most relevant to services that rely on their users trusting them with data about them. It could, for instance, be a solution for companies that allow users to make data about them available to third parties. What if citizens would like to make location data about them available to local governments to improve flow of traffic? Or perhaps salaried workers would like their salary data available for research into gender disparities? A consent proxy could be a great way to help them better share data about themselves, while ensuring the way this data is used corresponds with their values and privacy expectations.&lt;/p&gt;
+
+&lt;p&gt;But to make consent proxies work for the average internet user, the creation of profiles alone will not be enough. Consent proxies would be toothless without ways to enforce the profiles they create. Their power relative to, for instance, a social media platform depends on their ability to steer individuals away from platforms that do not comply with their consent profiles. At the moment that is unlikely to be the case. We may not want to hand over data about us to Facebook, but we are equally unwilling to give up our social network. This problem will not be solved by a consent proxy, but will instead require true data portability - the ability to take data about us from one platform to the next.&lt;/p&gt;
+
+&lt;p&gt;A number of solutions to level the playing field have already been proposed, ranging from decentralized web technologies (e.g. Solid, Holochain, MaidSafe) to data trusts. While still in their infancy, these technologies and infrastructures promise to shift the power from the creators of closed platforms, back to the consumers of those platforms. Once the playing field is sufficiently leveled, a consent proxy - or consortium of consent proxies - would hold enough collective bargaining power to alter the behavior of data collectors and users. Equally, consent proxies could meaningfully advise against using a platform that fails to adopt any of its profiles.&lt;/p&gt;
+
+&lt;h2 id=&quot;to-conclude&quot;&gt;To conclude&lt;/h2&gt;
+
+&lt;p&gt;Consent proxies will not be a magic bullet, but rather part of a range of infrastructural solutions that together pave the way for better data sharing while safeguarding individual and collective privacy. Of course, there are a number of remaining questions to work out. Who would cover the costs of setting up the consent proxies and creating the consent profiles? How do we ensure that the organisations we trust to become these proxies have enough understanding of data (in addition to their understanding of their specific domain)?&lt;/p&gt;
+
+&lt;p&gt;One of the great failures in the current data and privacy debate is the users who are routinely set up to fail; expected to fend for themselves and make wise data choices with too little information, even if they have the understanding. Much like we do not need to ask whether the water we drink is clean, everytime we take a sip, we should not have to evaluate a wide range of privacy concerns everytime we log into an app. Trusted consent proxies, with area-relevant expertise, would be one way to relieve this burden.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 20 Nov 2019 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/privacy/consent/2019/11/20/Data-Trusts-Why-What-How.html</link>
+        <guid isPermaLink="true">http://localhost:4000/privacy/consent/2019/11/20/Data-Trusts-Why-What-How.html</guid>
+        
+        
+        <category>privacy</category>
+        
+        <category>consent</category>
+        
+      </item>
+    
+      <item>
+        <title>Data Portability, Federation And Portable Consent</title>
+        <description>&lt;p&gt;Online consent is broken. The enclosure of user data by social media platforms and services have resulted in power imbalances that undermine any meaningful notion of consent. Our ability to freely choose how and when we share our data breaks down when the ‘choice’ is between surrendering data about ourselves or social exclusion. A different reality is possible: one where we can leave a social media platform, and take our social graph and data with us; one in which we can vote with our feet, and thereby change the power dynamic between us and the platforms we rely on for our everyday communication.&lt;/p&gt;
+
+&lt;p&gt;The internet itself was conceived of as an “open” platform - where open, in this case, means that the legal entities, the technical solutions used, and the future classes of content, can all be evolved independent of each other. This combines portability and federation. Portability refers to the idea that any single website or network-connected device can be moved between existing entities. Federation means that new websites and devices can be connected without requiring the participation of existing entities. Taken together, the combination of portability and federation can provide a robust set of protections for individual and societal freedoms.&lt;/p&gt;
+
+&lt;p&gt;Under the General Data Protection Regulation that came into effect in Europe last year, individuals gained a right to data portability. We can now decide to leave Facebook and take our personal data with us to another service. In theory, we are no longer beholden to one social media platform or banking app and are free to break out of the walled gardens that have held us hostage. In reality, we rarely exercise our right to data portability. For starters, it’s hard to actually obtain the data about us. Additionally, data derived from one service is often not directly usable for another.&lt;/p&gt;
+
+&lt;p&gt;What mechanisms and infrastructure need to be in place to realize true portability and federation?&lt;/p&gt;
+
+&lt;h2 id=&quot;the-separation-of-powers-protocol-platform-and-license&quot;&gt;The separation of powers: protocol, platform and license&lt;/h2&gt;
+
+&lt;p&gt;We can divide the problem of providing portability into three segments: Protocol, Platform, and License. We argue that data portability and federation requires each of these segments to be created independent of the others, such that no single segment can ever prescribe rules to the remaining two.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Protocol&lt;/strong&gt; describes the relationship between data and the set of explicit consents that have been granted on that data. Take the git protocol as an example, which describes the history of changes to a data set and the authors of those changes.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Platform&lt;/strong&gt; is envisioned as a server environment that supports real-time API-driven access to data sets, mediated by a rules engine that conforms to the Protocol. This includes a set of read and write clients, as well as standalone policy engines that enforce pre-collection permissions and post-read usage and summarization consent. All of the components of the platform are designed to allow robust audit capabilities, and a tamper-proof activity log.&lt;/p&gt;
+
+&lt;p&gt;To return to the git example, this open protocol works with various platforms, like GitHub and GitLab. If users of one of these platforms stop trusting in its governance, they can easily take their code base to a different platform. In the extreme case, they can run a platform themselves.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;License&lt;/strong&gt; provides a permanently-attached set of limits on usage and derived work, and functions exactly the same as copy-left or permissive licensing in the open source world. Note that extended permutations of the copy-left principles (including licenses that explicitly prohibit commercial activity) are likely to emerge in this space. Additionally, licenses and other legal frameworks are the only portion of a data trust structure that remains ATTACHED to the data after it is exported; thus, they are critical to protecting the integrity of the consent(s) during migrations.&lt;/p&gt;
+
+&lt;h2 id=&quot;portable-consent-an-unavoidable-complexity&quot;&gt;Portable Consent: An unavoidable complexity&lt;/h2&gt;
+
+&lt;p&gt;When transferring data between services, or organisations, we need to be able to ensure that the privacy statements attached to the data are upheld. In other words, if data is moved from one social media to another, a user should be able to trust that the privacy settings agreed to on the first platform, equally apply on the second. This means that the mechanisms for managing consent need to exist at the protocol and license layer, decoupled from the platform.&lt;/p&gt;
+
+&lt;p&gt;In order for protocols to provide meaningful portability guarantees, there must be at least one platform available that implements this protocol (such as GIT for the git protocol, httpd for the HTTP protocol) and that platform must be a) operated by at least two different entities, and b) be relatively simple for an additional entity to operate. Any data trust operator could swap out the underlying platform without breaking portability, provided the same underlying protocol was supported.&lt;/p&gt;
+
+&lt;p&gt;Moreover, the entity that defines and evolves the protocol should ideally be separate from any of the entities that operate these platforms - much in the same way the W3C is separate from any specific browser.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Each of the three aspects of portability represents a check or balance on the others. Licenses and protocols can both be abused to tightly couple data to a specific platform; similarly, protocols can be structured in a way to limit the potential licenses with which they could be used. Users and their consent proxies should remain free to select the license of their choice, unconstrained by platform or protocol limitations.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 03 Jul 2019 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/privacy/consent/2019/07/03/data-portability.html</link>
+        <guid isPermaLink="true">http://localhost:4000/privacy/consent/2019/07/03/data-portability.html</guid>
+        
+        
+        <category>privacy</category>
+        
+        <category>consent</category>
+        
+      </item>
+    
+      <item>
+        <title>Could consent proxies help us navigate privacy concerns?</title>
+        <description>&lt;p&gt;“If no one reads the terms and conditions, how can they continue to be the backbone of the  internet?” asks the New York Times editorial board in an article titled &lt;a href=&quot;https://www.nytimes.com/2019/02/02/opinion/internet-facebook-google-consent.html&quot;&gt;‘How Silicon Valley puts the ‘con’ in consent’&lt;/a&gt;. Despite data protection laws becoming commonplace, we have yet to find consent models beyond those that rely on individual users blindly clicking ‘Agree’ or opting into cookies they hardly understand. Online consent is severely broken and the wreckage extends beyond the impossible-to-navigate consent windows. &lt;a href=&quot;https://www.amacad.org/publication/contextual-approach-privacy-online&quot;&gt;Helen Nissenbaum&lt;/a&gt; argues that the model of notice-and-consent is inherently flawed as we can never fully understand the repercussions of data about us being used in different contexts:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“Proposals to improve and fortify notice-and-consent, such as clearer privacy policies and fairer information practices, will not overcome a fundamental flaw in the model, namely, its assumption that individuals can understand all facts relevant to true choice at the moment of pair-wise contracting between individuals and data gatherers.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;One of the underlying problems, Nissenbaum observes, is that consent is not meaningful when we cannot trust the system in place to protect our rights. We can, for example, meaningfully consent to have a surgeon operate on our kidneys; not because we have a perfect understanding of what such an operation might entail, but because we trust the medical system works and protects us. The only decisions left for us are not the specific way we want to surgeon to cut our kidney, but whether we have any problems with blood transfusions or resuscitation. Decisions that depend on our norms and beliefs; things we understand.&lt;/p&gt;
+
+&lt;p&gt;“Choosing is not mere picking but requires that the subject understands that to which he or she is consenting”. Especially when considering raw data, like the number of keystrokes, or seconds spend staring at a screen, context is missing. The data lacks sufficient meaning to allow us to understand possible privacy implications of sharing such data. Only once we think through specific use cases and combinations of data do we start to understand how sharing it could help or hinder us. Such an analysis, however, requires extensive time and domain knowledge.&lt;/p&gt;
+
+&lt;p&gt;But we should not have to be experts to make decisions about how data about us is collected and shared. Likewise, we should not have to trust Facebook to make those decisions for us. One solution is to play safe, and severely limit the data that is collected about us. This is the approach taken by the General Data Protection Regulation (GDPR) that came into force in Europe last year. Whilst an improvement, this defensive attitude towards data sharing does not help us in circumstances where we might want to share more data about ourselves: where doing so is in both our personal and collective interests.&lt;/p&gt;
+
+&lt;h2 id=&quot;consent-proxies&quot;&gt;Consent proxies&lt;/h2&gt;
+
+&lt;p&gt;Enter consent proxies: organisations to make consent decisions on your behalf. These could be any organisation you trust to make decisions for you on specific types of data about you. For instance, someone infected with HIV might have specific privacy preferences, ranging from a desire to keep this information private, to wishes to help research towards better treatments. HIV advocacy bodies would potentially be well-suited to understand the context necessary to navigate these concerns, which are both complex and interlinked. In a similar vein, trade unions could be well-positioned to create consent profiles that would specifically deal with data collection and sharing relating to future employment, or wage calculations.&lt;/p&gt;
+
+&lt;p&gt;Consent proxies, therefore, are organisations that hold expertise in specific domains (e.g. health, mobility, human rights) and use that expertise to draft consent profiles regarding data collection and usage that individuals can adopt as their own. These profiles reflect the ethical considerations and risk assessments performed by the consent proxies, as well as the values and norms the proxy stands for. The trust placed in consent proxies is founded in their proven capacity for understanding the specific norms, values, needs and expectations of a specific demographic, given a specific context.&lt;/p&gt;
+
+&lt;h2 id=&quot;requirements-for-effective-consent-proxies&quot;&gt;Requirements for effective consent proxies&lt;/h2&gt;
+&lt;p&gt;In order for a consent proxy to effectively address the problems laid out above, it needs to fulfill a number of roles and requirements:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Consent profiles should be usable&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;The user should be presented, by the proxy they are entrusting with their data decisions, with a menu of possible consent profiles. The consent profiles should provide an easy overview of the main norms, functions and goals that underlies them, as well as a clear overview of the types of data the consent profile cover. It thereby replaces the spider web of choices users are currently faced with (for instance in the form of Facebook’s privacy settings). Underneath this easy-to-navigate profile sits a fine-grained set of rules that govern the relationship between the platform users and those collecting, using and sharing data about them.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Variety of consent&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;To reflect the fact that human beings hold many identities that are subject to change, we should be able to a) choose from a wide range of consent proxies and b) elect different consent proxies to govern different types of data, as well as different types of concerns. For instance, we might want to have health data about us governed by both our GP and the Diabetes Foundation. As such, different profiles could end up governing the same piece of data. In those cases it makes sense for the most stringent privacy preferences to become the default, unless otherwise stipulated. In order to automatically negotiate the differences between various profiles, their rules should be available in a computer readable format. The result of these various compatible data proxies and profiles, working in concert is a set of API rules dictating what data can and cannot be collected, stored and used by data users, and under what conditions.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Low barriers of entry and exit&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;As our values and circumstances are subject to change, we should be able to switch between consent proxies easily. This, in addition, allows us to vote with our feet.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;would-consent-proxies-work-in-the-wild&quot;&gt;Would consent proxies work in the wild?&lt;/h2&gt;
+
+&lt;p&gt;At this point, the careful reader will wonder why any platform or service would agree to have their activities curtailed by consent profiles, when at the moment they have free rein. Fair question. For the moment, consent profiles are likely most relevant to services that rely on their users trusting them with data about them. It could, for instance, be a solution for companies that allow users to make data about them available to third parties. What if citizens would like to make location data about them available to local governments to improve flow of traffic? Or perhaps salaried workers would like their salary data available for research into gender disparities? A consent proxy could be a great way to help them better share data about themselves, while ensuring the way this data is used corresponds with their values and privacy expectations.&lt;/p&gt;
+
+&lt;p&gt;But to make consent proxies work for the average internet user, the creation of profiles alone will not be enough. Consent proxies would be toothless without ways to enforce the profiles they create. Their power relative to, for instance, a social media platform depends on their ability to steer individuals away from platforms that do not comply with their consent profiles. At the moment that is unlikely to be the case. We may not want to hand over data about us to Facebook, but we are equally unwilling to give up our social network. This problem will not be solved by a consent proxy, but will instead require true data portability - the ability to take data about us from one platform to the next.&lt;/p&gt;
+
+&lt;p&gt;A number of solutions to level the playing field have already been proposed, ranging from decentralized web technologies (e.g. Solid, Holochain, MaidSafe) to data trusts. While still in their infancy, these technologies and infrastructures promise to shift the power from the creators of closed platforms, back to the consumers of those platforms. Once the playing field is sufficiently leveled, a consent proxy - or consortium of consent proxies - would hold enough collective bargaining power to alter the behavior of data collectors and users. Equally, consent proxies could meaningfully advise against using a platform that fails to adopt any of its profiles.&lt;/p&gt;
+
+&lt;h2 id=&quot;to-conclude&quot;&gt;To conclude&lt;/h2&gt;
+
+&lt;p&gt;Consent proxies will not be a magic bullet, but rather part of a range of infrastructural solutions that together pave the way for better data sharing while safeguarding individual and collective privacy. Of course, there are a number of remaining questions to work out. Who would cover the costs of setting up the consent proxies and creating the consent profiles? How do we ensure that the organisations we trust to become these proxies have enough understanding of data (in addition to their understanding of their specific domain)?&lt;/p&gt;
+
+&lt;p&gt;One of the great failures in the current data and privacy debate is the users who are routinely set up to fail; expected to fend for themselves and make wise data choices with too little information, even if they have the understanding. Much like we do not need to ask whether the water we drink is clean, everytime we take a sip, we should not have to evaluate a wide range of privacy concerns everytime we log into an app. Trusted consent proxies, with area-relevant expertise, would be one way to relieve this burden.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 24 Jun 2019 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/privacy/consent/2019/06/24/consent-proxes.html</link>
+        <guid isPermaLink="true">http://localhost:4000/privacy/consent/2019/06/24/consent-proxes.html</guid>
+        
+        
+        <category>privacy</category>
+        
+        <category>consent</category>
+        
+      </item>
+    
+      <item>
+        <title>Why Your Privacy Is About All Of Us</title>
+        <description>&lt;p&gt;“If no one reads the terms and conditions, how can they continue to be the backbone of the  internet?” asks the New York Times editorial board in an article titled &lt;a href=&quot;https://www.nytimes.com/2019/02/02/opinion/internet-facebook-google-consent.html&quot;&gt;‘How Silicon Valley puts the ‘con’ in consent’&lt;/a&gt;. Despite data protection laws becoming commonplace, we have yet to find consent models beyond those that rely on individual users blindly clicking ‘Agree’ or opting into cookies they hardly understand. Online consent is severely broken and the wreckage extends beyond the impossible-to-navigate consent windows. &lt;a href=&quot;https://www.amacad.org/publication/contextual-approach-privacy-online&quot;&gt;Helen Nissenbaum&lt;/a&gt; argues that the model of notice-and-consent is inherently flawed as we can never fully understand the repercussions of data about us being used in different contexts:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“Proposals to improve and fortify notice-and-consent, such as clearer privacy policies and fairer information practices, will not overcome a fundamental flaw in the model, namely, its assumption that individuals can understand all facts relevant to true choice at the moment of pair-wise contracting between individuals and data gatherers.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;One of the underlying problems, Nissenbaum observes, is that consent is not meaningful when we cannot trust the system in place to protect our rights. We can, for example, meaningfully consent to have a surgeon operate on our kidneys; not because we have a perfect understanding of what such an operation might entail, but because we trust the medical system works and protects us. The only decisions left for us are not the specific way we want to surgeon to cut our kidney, but whether we have any problems with blood transfusions or resuscitation. Decisions that depend on our norms and beliefs; things we understand.&lt;/p&gt;
+
+&lt;p&gt;“Choosing is not mere picking but requires that the subject understands that to which he or she is consenting”. Especially when considering raw data, like the number of keystrokes, or seconds spend staring at a screen, context is missing. The data lacks sufficient meaning to allow us to understand possible privacy implications of sharing such data. Only once we think through specific use cases and combinations of data do we start to understand how sharing it could help or hinder us. Such an analysis, however, requires extensive time and domain knowledge.&lt;/p&gt;
+
+&lt;p&gt;But we should not have to be experts to make decisions about how data about us is collected and shared. Likewise, we should not have to trust Facebook to make those decisions for us. One solution is to play safe, and severely limit the data that is collected about us. This is the approach taken by the General Data Protection Regulation (GDPR) that came into force in Europe last year. Whilst an improvement, this defensive attitude towards data sharing does not help us in circumstances where we might want to share more data about ourselves: where doing so is in both our personal and collective interests.&lt;/p&gt;
+
+&lt;h2 id=&quot;consent-proxies&quot;&gt;Consent proxies&lt;/h2&gt;
+
+&lt;p&gt;Enter consent proxies: organisations to make consent decisions on your behalf. These could be any organisation you trust to make decisions for you on specific types of data about you. For instance, someone infected with HIV might have specific privacy preferences, ranging from a desire to keep this information private, to wishes to help research towards better treatments. HIV advocacy bodies would potentially be well-suited to understand the context necessary to navigate these concerns, which are both complex and interlinked. In a similar vein, trade unions could be well-positioned to create consent profiles that would specifically deal with data collection and sharing relating to future employment, or wage calculations.&lt;/p&gt;
+
+&lt;p&gt;Consent proxies, therefore, are organisations that hold expertise in specific domains (e.g. health, mobility, human rights) and use that expertise to draft consent profiles regarding data collection and usage that individuals can adopt as their own. These profiles reflect the ethical considerations and risk assessments performed by the consent proxies, as well as the values and norms the proxy stands for. The trust placed in consent proxies is founded in their proven capacity for understanding the specific norms, values, needs and expectations of a specific demographic, given a specific context.&lt;/p&gt;
+
+&lt;h2 id=&quot;requirements-for-effective-consent-proxies&quot;&gt;Requirements for effective consent proxies&lt;/h2&gt;
+&lt;p&gt;In order for a consent proxy to effectively address the problems laid out above, it needs to fulfill a number of roles and requirements:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Consent profiles should be usable&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;The user should be presented, by the proxy they are entrusting with their data decisions, with a menu of possible consent profiles. The consent profiles should provide an easy overview of the main norms, functions and goals that underlies them, as well as a clear overview of the types of data the consent profile cover. It thereby replaces the spider web of choices users are currently faced with (for instance in the form of Facebook’s privacy settings). Underneath this easy-to-navigate profile sits a fine-grained set of rules that govern the relationship between the platform users and those collecting, using and sharing data about them.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Variety of consent&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;To reflect the fact that human beings hold many identities that are subject to change, we should be able to a) choose from a wide range of consent proxies and b) elect different consent proxies to govern different types of data, as well as different types of concerns. For instance, we might want to have health data about us governed by both our GP and the Diabetes Foundation. As such, different profiles could end up governing the same piece of data. In those cases it makes sense for the most stringent privacy preferences to become the default, unless otherwise stipulated. In order to automatically negotiate the differences between various profiles, their rules should be available in a computer readable format. The result of these various compatible data proxies and profiles, working in concert is a set of API rules dictating what data can and cannot be collected, stored and used by data users, and under what conditions.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Low barriers of entry and exit&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;As our values and circumstances are subject to change, we should be able to switch between consent proxies easily. This, in addition, allows us to vote with our feet.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;would-consent-proxies-work-in-the-wild&quot;&gt;Would consent proxies work in the wild?&lt;/h2&gt;
+
+&lt;p&gt;At this point, the careful reader will wonder why any platform or service would agree to have their activities curtailed by consent profiles, when at the moment they have free rein. Fair question. For the moment, consent profiles are likely most relevant to services that rely on their users trusting them with data about them. It could, for instance, be a solution for companies that allow users to make data about them available to third parties. What if citizens would like to make location data about them available to local governments to improve flow of traffic? Or perhaps salaried workers would like their salary data available for research into gender disparities? A consent proxy could be a great way to help them better share data about themselves, while ensuring the way this data is used corresponds with their values and privacy expectations.&lt;/p&gt;
+
+&lt;p&gt;But to make consent proxies work for the average internet user, the creation of profiles alone will not be enough. Consent proxies would be toothless without ways to enforce the profiles they create. Their power relative to, for instance, a social media platform depends on their ability to steer individuals away from platforms that do not comply with their consent profiles. At the moment that is unlikely to be the case. We may not want to hand over data about us to Facebook, but we are equally unwilling to give up our social network. This problem will not be solved by a consent proxy, but will instead require true data portability - the ability to take data about us from one platform to the next.&lt;/p&gt;
+
+&lt;p&gt;A number of solutions to level the playing field have already been proposed, ranging from decentralized web technologies (e.g. Solid, Holochain, MaidSafe) to data trusts. While still in their infancy, these technologies and infrastructures promise to shift the power from the creators of closed platforms, back to the consumers of those platforms. Once the playing field is sufficiently leveled, a consent proxy - or consortium of consent proxies - would hold enough collective bargaining power to alter the behavior of data collectors and users. Equally, consent proxies could meaningfully advise against using a platform that fails to adopt any of its profiles.&lt;/p&gt;
+
+&lt;h2 id=&quot;to-conclude&quot;&gt;To conclude&lt;/h2&gt;
+
+&lt;p&gt;Consent proxies will not be a magic bullet, but rather part of a range of infrastructural solutions that together pave the way for better data sharing while safeguarding individual and collective privacy. Of course, there are a number of remaining questions to work out. Who would cover the costs of setting up the consent proxies and creating the consent profiles? How do we ensure that the organisations we trust to become these proxies have enough understanding of data (in addition to their understanding of their specific domain)?&lt;/p&gt;
+
+&lt;p&gt;One of the great failures in the current data and privacy debate is the users who are routinely set up to fail; expected to fend for themselves and make wise data choices with too little information, even if they have the understanding. Much like we do not need to ask whether the water we drink is clean, everytime we take a sip, we should not have to evaluate a wide range of privacy concerns everytime we log into an app. Trusted consent proxies, with area-relevant expertise, would be one way to relieve this burden.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 24 Jun 2019 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/privacy/consent/2019/06/24/why-your-privacy-is-about-all-of-us.html</link>
+        <guid isPermaLink="true">http://localhost:4000/privacy/consent/2019/06/24/why-your-privacy-is-about-all-of-us.html</guid>
+        
+        
+        <category>privacy</category>
+        
+        <category>consent</category>
+        
+      </item>
+    
+  </channel>
+</rss>
