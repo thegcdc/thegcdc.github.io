@@ -16,13 +16,13 @@ p {
 }
 
 h2, h3, h4, h5 {
-  font-weight: 400;
+  font-weight: 700;
   font-family: 'Roboto', sans-serif;
   color: #C10091;
 }
 
 .blog-link {
-	color: black;
+	color: #0D001A;
 	font-weight: 700;
 	text-decoration: none;
 }
@@ -44,6 +44,16 @@ h2, h3, h4, h5 {
 
 }
 
+.bg-start-sub {
+	color: #0D001A;
+	background-color: white;
+	background-image: linear-gradient(to bottom,rgba(32, 30, 92, 0.2), rgba(32, 30, 92, 0.0),rgba(32, 30, 92, 0.4),rgba(32, 30, 92, 0.7)), url("../image/globe-fractal-unsplash.jpg");
+	background-size: cover;
+	height: 400px;
+}
+
+
+
 h1 {
 	font-weight: 700;
 	font-size: 1.9rem;
@@ -54,8 +64,8 @@ h1 {
 
 
 footer {
-	background-color: white;
-	color: black;
+	background-color: #0D001A;
+	color: white;
 }
 
 img {
@@ -87,7 +97,7 @@ img {
 
 
 .bg-start{
-	color: black;
+	color: #0D001A;
 	background-color: white;
 	background-image: linear-gradient(to bottom,rgba(32, 30, 92, 0.2), rgba(32, 30, 92, 0.0),rgba(32, 30, 92, 0.4),rgba(32, 30, 92, 0.7)), url("../image/globe-fractal-unsplash.jpg");
 	background-size: cover;
@@ -95,7 +105,7 @@ img {
 }
 
 .bg-start-blog {
-	color: black;
+	color: #0D001A;
 	background-color: white;
 	background-image: linear-gradient(to bottom,rgba(32, 30, 92, 0.2), rgba(32, 30, 92, 0.0),rgba(32, 30, 92, 0.4),rgba(32, 30, 92, 0.7)), url("../image/globe-fractal-unsplash.jpg");
 	background-size: cover;
@@ -112,7 +122,7 @@ img {
 .bg-start p {
 	font-weight: 300;
 	font-size: 25px;
-	color: black;
+	color: #0D001A;
 }
 
 .bg-start.small{
@@ -138,7 +148,7 @@ img {
 
 .bg-dark {
 	color: white;
-	background-color: black;
+	background-color: #0D001A;
 /*	background-image: linear-gradient(to bottom,rgba(3, 188, 150, 0.95),rgba(3, 154, 123, 0.95)), url("../lion_2.png");
 */
 }
@@ -156,8 +166,8 @@ img {
 }
 
 .bg-shade {
-	background-color: #AF4495;
-	color: white;
+	background-color: #FFFAF7;
+	color: #0D001A;
 
 }
 
@@ -168,22 +178,12 @@ img {
 
 .bg-column {
 	/*color: rgba(207, 2, 121, 1.0);*/
-	color: black;
+	color: #0D001A;
 	background-color: white;
 }
 
 .bg-column h3 {
 	font-weight: 400;
-}
-
-.logo {
-	background-color: #E30285;
-	color: white;
-	font-weight: 700;
-	width: 100%;
-	padding-left: 5%;
-	padding-right: 5%;
-	text-align: left;
 }
 
 .projects  {
@@ -197,8 +197,8 @@ img {
 
 
 .bg-footer {
-	color: black;
-	background-image: white;
+	color: white;
+	background-image: #0D001A;
 	background-size: 1400px;
 	border: none;
 	padding-top: 2%;
@@ -210,12 +210,12 @@ img {
 	margin: 0px;
 	padding-bottom: 5px;
 	padding-top: 5px;
-	color: #1C0038;
-	background-color: white;
+	color: white;
+	background-color: #0D001A;
 }
 
 .bg {
-	background-color: #E4572E;
+	background-color: #0D001A;
 }
 
 hr.haar {
@@ -240,7 +240,9 @@ hr.haar-h {
 	border: 0;
     height: 2px;
     width: 65vw;
-    background: black;
+    background: #0D001A;
+    
+    margin: 0 auto;
     margin-left: 18vw;
 }
 
@@ -248,9 +250,10 @@ hr.haar-y {
 	border: 0;
     height: 2px;
     width: 65vw;
-    background-color: black;
+    background-color: #0D001A;
 /*    background: #6d37e9;*/
 /*    margin-bottom: 30px;*/
+    margin: 0;
     margin-left: 18vw;
 /*    margin: 0 auto;
     margin-bottom: 5px;*/
@@ -259,14 +262,11 @@ hr.haar-y {
 
 hr.haar-p {
 	border: 0;
-    height: 10px;
-    width: 10vw;
-    background: #E30285;
-    margin-top: 0;
-    margin-bottom: 30px;
-    margin-left: 33px;
-/*    margin: 0 auto;
-    margin-bottom: 5px;*/
+    height: 30px;
+    width: 30px;
+    background: #FC9E4F;
+    margin-top: 6px;
+    margin-bottom: 10px;
 }
 
 
@@ -316,28 +316,6 @@ hr.haar-p {
 }
 
 
-
-.img-phoebe {
-	background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.4)), url("../image/Field.png");
-	background-size: cover;
-}
-
-.img-rich {
-	background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.4)), url("../image/Rich_mugshot.jpg");
-	background-size: cover;
-}
-
-.img-nati {
-	background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.4)), url("../image/Nati_mugshot.jpg");
-	background-size: cover;
-}
-
-.img-ants {
-	background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.4)), url("../image/Ants_mugshot.jpg");
-	background-size: cover;
-}
-
-
 .block-img {
 	 overflow: hidden;
 }
@@ -363,7 +341,7 @@ hr.haar-p {
 .nav-item {
 	/*background-color:rgba(186,2,109,0.5);*/
 	background-color: rgba(255,255,255,1.0);
-	color:  black;
+	color:  #0D001A;
 	width: 90%;
 	padding-left: 5%;
 	padding-right: 5%;
@@ -372,11 +350,20 @@ hr.haar-p {
 
 .nav-item a {
 	/*color:#1FBFB7;*/
-	color: black;
+	color: #0D001A;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 	text-decoration: none;
 }
+
+.logo a {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	color: #0D001A;
+}
+
+
 
 @media screen and (max-width: 920px) {
 	.bg-start {
