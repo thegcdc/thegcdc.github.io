@@ -2,8 +2,8 @@
 title: GCDC
 email: anouk@centerfordigitalcommons.org
 description: building infrastructures for the common governance of digital resources
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+baseurl: "www.centerfordigitalcommons.com" # the subpath of your site, e.g. /blog/
+url: "www.centerfordigitalcommons.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
