@@ -1,28 +1,33 @@
 body {
   	font-weight: 400;
   	font-family: 'Roboto', sans-serif;
-  	color:white;
+  	color: #545464;
   	background-color: white;
   }
 
 body a:hover {
 	text-decoration: underline;
-	color: blue;
+	color: yellow;
+}
+
+body a {
+	color: #FFEE93;
+	font-weight: 400;
 }
 
 
 p {
-	font-size: 1.1rem;
+	font-size: 1rem;
 }
 
 h2, h3, h4, h5 {
   font-weight: 700;
   font-family: 'Roboto', sans-serif;
-  color: #C10091;
+  color: white;
 }
 
 .blog-link {
-	color: #0D001A;
+	color: #545464;
 	font-weight: 700;
 	text-decoration: none;
 }
@@ -41,13 +46,14 @@ h2, h3, h4, h5 {
 	font-weight: 700;
 	font-size: 40px;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
+	color: #545464;
 
 }
 
 .bg-start-sub {
 	color: #0D001A;
 	background-color: white;
-	background-image: linear-gradient(to bottom,rgba(32, 30, 92, 0.2), rgba(32, 30, 92, 0.0),rgba(32, 30, 92, 0.4),rgba(32, 30, 92, 0.7)), url("../image/globe-fractal-unsplash.jpg");
+	background-image: linear-gradient(to bottom,rgba(32, 30, 92, 0.9), rgba(32, 30, 92, 0.0),rgba(32, 30, 92, 0.4),rgba(32, 30, 92, 0.7)), url("../image/champion-unsplash.jpg");
 	background-size: cover;
 	height: 400px;
 }
@@ -64,7 +70,7 @@ h1 {
 
 
 footer {
-	background-color: #0D001A;
+	background-color: #ff7f86;
 	color: white;
 }
 
@@ -79,11 +85,11 @@ img {
 
 .name {
 	font-weight: 700;
-	font-size: 60px;
+	font-size: 80px;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
-	color: white;
+	color: rgb(255, 127, 134);
 	padding-top: 0;
-	margin-top: 0;
+	margin-top: 0px;
 	padding-bottom: 0;
 	margin-bottom: 0;
 }
@@ -97,23 +103,22 @@ img {
 
 
 .bg-start{
-	color: #0D001A;
-	background-color: white;
-	background-image: linear-gradient(to bottom,rgba(32, 30, 92, 0.2), rgba(32, 30, 92, 0.0),rgba(32, 30, 92, 0.4),rgba(32, 30, 92, 0.7)), url("../image/globe-fractal-unsplash.jpg");
+	color: #2B3A67;
+	background-color: #2B3A67;
+	background-image: linear-gradient(to bottom,rgba(255, 249, 214, 0.7), rgba(255, 249, 214, 0.9)), url("../image/champion-unsplash.jpg");
 	background-size: cover;
-	height: 700px;
+	height: 600px;
 }
 
 .bg-start-blog {
 	color: #0D001A;
 	background-color: white;
-	background-image: linear-gradient(to bottom,rgba(32, 30, 92, 0.2), rgba(32, 30, 92, 0.0),rgba(32, 30, 92, 0.4),rgba(32, 30, 92, 0.7)), url("../image/globe-fractal-unsplash.jpg");
-	background-size: cover;
-	height: 250px;
+		background-image: linear-gradient(to bottom,rgba(255, 249, 214, 0.7), rgba(255, 249, 214, 0.9)), url("../image/champion-unsplash.jpg");
+	height: 350px;
 }
 
 .headline {
-	color: #FC9E4F;
+	color: #4f4789;
 	font-weight: 700;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 }
@@ -153,12 +158,6 @@ img {
 */
 }
 
-.bg-light {
-	color: white;
-	background-color: #e4dafb;
-	background-image: linear-gradient(to bottom,rgba(215, 200, 249, 0.7),rgba(215, 200, 249, 0.)), url("../image/space_1.png");
-	background-size: cover;
-}
 
 .bg-grey {
 	color: black;
@@ -166,8 +165,8 @@ img {
 }
 
 .bg-shade {
-	background-color: #FFFAF7;
-	color: #0D001A;
+	background-color: #545464;
+	color: white;
 
 }
 
@@ -178,9 +177,10 @@ img {
 
 .bg-column {
 	/*color: rgba(207, 2, 121, 1.0);*/
-	color: #0D001A;
-	background-color: white;
+	color: #545464;
+	background-color: white
 }
+
 
 .bg-column h3 {
 	font-weight: 400;
@@ -198,7 +198,7 @@ img {
 
 .bg-footer {
 	color: white;
-	background-image: #0D001A;
+	background-image: #ff7f86;
 	background-size: 1400px;
 	border: none;
 	padding-top: 2%;
@@ -211,11 +211,11 @@ img {
 	padding-bottom: 5px;
 	padding-top: 5px;
 	color: white;
-	background-color: #0D001A;
+	background-color: #ff7f86;
 }
 
 .bg {
-	background-color: #0D001A;
+	background-color: #ff7f86;
 }
 
 hr.haar {
@@ -265,7 +265,7 @@ hr.haar-p {
     height: 30px;
     width: 30px;
     background: #FC9E4F;
-    margin-top: 6px;
+    margin-top: 3px;
     margin-bottom: 10px;
 }
 
@@ -275,8 +275,8 @@ hr.haar-p {
 }
 
 .nav-bottom {
-	background-color: #1C0038;
-	color: white;
+	background-color: white;
+	color: #545464;
 	font-weight: 500;
 }
 
@@ -340,8 +340,8 @@ hr.haar-p {
 
 .nav-item {
 	/*background-color:rgba(186,2,109,0.5);*/
-	background-color: rgba(255,255,255,1.0);
-	color:  #0D001A;
+	background-color: #ff7f86;
+	color: white;
 	width: 90%;
 	padding-left: 5%;
 	padding-right: 5%;
@@ -350,8 +350,8 @@ hr.haar-p {
 
 .nav-item a {
 	/*color:#1FBFB7;*/
-	color: #0D001A;
-	font-family: 'Roboto', sans-serif;
+	color: #FFEE93;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
 	font-weight: 700;
 	text-decoration: none;
 }
@@ -383,7 +383,6 @@ hr.haar-p {
 	.name {
 		font-weight: 700;
 		font-size: 2.5rem;
-		color: white;
 	}
 
 	h1 {

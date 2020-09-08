@@ -5,9 +5,9 @@
     <description>building infrastructures for the common governance of digital resources</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 03 Dec 2019 16:49:49 -0800</pubDate>
-    <lastBuildDate>Tue, 03 Dec 2019 16:49:49 -0800</lastBuildDate>
-    <generator>Jekyll v3.8.5</generator>
+    <pubDate>Tue, 08 Sep 2020 21:46:38 +0200</pubDate>
+    <lastBuildDate>Tue, 08 Sep 2020 21:46:38 +0200</lastBuildDate>
+    <generator>Jekyll v4.1.1</generator>
     
       <item>
         <title>Data Trusts: Why, What and How</title>
@@ -75,7 +75,7 @@ How you can help&lt;/p&gt;
 
 &lt;p&gt;Image by Joshua Rawson Harris, on Unsplash. Edits by &lt;a href=&quot;https://twitter.com/rich_mason_?lang=en&quot;&gt;Rich Mason&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Wed, 20 Nov 2019 00:00:00 -0800</pubDate>
+        <pubDate>Wed, 20 Nov 2019 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/privacy/consent/2019/11/20/Data-Trusts-Why-What-How.html</link>
         <guid isPermaLink="true">http://localhost:4000/privacy/consent/2019/11/20/Data-Trusts-Why-What-How.html</guid>
         
@@ -119,7 +119,7 @@ How you can help&lt;/p&gt;
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;Each of the three aspects of portability represents a check or balance on the others. Licenses and protocols can both be abused to tightly couple data to a specific platform; similarly, protocols can be structured in a way to limit the potential licenses with which they could be used. Users and their consent proxies should remain free to select the license of their choice, unconstrained by platform or protocol limitations.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 03 Jul 2019 00:00:00 -0700</pubDate>
+        <pubDate>Wed, 03 Jul 2019 00:00:00 +0200</pubDate>
         <link>http://localhost:4000/privacy/consent/2019/07/03/data-portability.html</link>
         <guid isPermaLink="true">http://localhost:4000/privacy/consent/2019/07/03/data-portability.html</guid>
         
@@ -183,7 +183,7 @@ How you can help&lt;/p&gt;
 
 &lt;p&gt;One of the great failures in the current data and privacy debate is the users who are routinely set up to fail; expected to fend for themselves and make wise data choices with too little information, even if they have the understanding. Much like we do not need to ask whether the water we drink is clean, everytime we take a sip, we should not have to evaluate a wide range of privacy concerns everytime we log into an app. Trusted consent champions, with area-relevant expertise, would be one way to relieve this burden.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 24 Jun 2019 00:00:00 -0700</pubDate>
+        <pubDate>Mon, 24 Jun 2019 00:00:00 +0200</pubDate>
         <link>http://localhost:4000/privacy/consent/2019/06/24/consent-champions.html</link>
         <guid isPermaLink="true">http://localhost:4000/privacy/consent/2019/06/24/consent-champions.html</guid>
         
@@ -208,7 +208,7 @@ How you can help&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://labourlist.org/2019/02/data-protection-and-individual-consent-why-your-privacy-is-about-all-of-us/&quot;&gt;Originally published on Labourlist.&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Mon, 18 Feb 2019 00:00:00 -0800</pubDate>
+        <pubDate>Mon, 18 Feb 2019 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/privacy/consent/2019/02/18/why-your-privacy-is-about-all-of-us.html</link>
         <guid isPermaLink="true">http://localhost:4000/privacy/consent/2019/02/18/why-your-privacy-is-about-all-of-us.html</guid>
         
