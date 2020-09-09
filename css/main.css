@@ -11,7 +11,7 @@ body a:hover {
 }
 
 body a {
-	color: #4851d0;
+	color: #ffee93;
 	font-weight: 400;
 }
 
@@ -164,14 +164,18 @@ img {
 }
 
 .bg-shade {
-	background-color: #ff7f86;
-	color: #fff6d2;
+	background-color: #590eec;
+	color: #ffefc8;
 
 }
 
 .bg-shade h1 {
 	color: white;
 	font-size: 3rem;
+}
+
+.bg-shade h2 {
+	color: white;
 }
 
 .bg-medium {
@@ -279,7 +283,7 @@ hr.haar-p {
 }
 
 .nav-bottom {
-	background-color:  #ffee93;
+	background-color: #ffefc8;
 	color: #545464;
 	font-weight: 500;
 }
