@@ -11,7 +11,7 @@ body a:hover {
 }
 
 body a {
-	color: #FFEE93;
+	color: #4851d0;
 	font-weight: 400;
 }
 
@@ -23,7 +23,6 @@ p {
 h2, h3, h4, h5 {
   font-weight: 700;
   font-family: 'Roboto', sans-serif;
-  color: white;
 }
 
 .blog-link {
@@ -165,9 +164,14 @@ img {
 }
 
 .bg-shade {
-	background-color: #7f87f1;
-	color: white;
+	background-color: #ff7f86;
+	color: #fff6d2;
 
+}
+
+.bg-shade h1 {
+	color: white;
+	font-size: 3rem;
 }
 
 .bg-medium {
@@ -275,8 +279,8 @@ hr.haar-p {
 }
 
 .nav-bottom {
-	background-color: #ffee93;
-	color: #7f87f1;
+	background-color:  #ffee93;
+	color: #545464;
 	font-weight: 500;
 }
 
