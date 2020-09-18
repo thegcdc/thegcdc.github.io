@@ -104,7 +104,7 @@ img {
 .bg-start{
 	color: #fb89d5;
 	background-color: #2B3A67;
-	background-image: linear-gradient(to top,rgba(236, 8, 159, 0.3), rgba(236, 8, 159, 0.5), rgba(236, 8, 159, 0.7)), url("../image/roof_pattern.jpg");
+	background-image: linear-gradient(to bottom,rgba(236, 8, 159, 0.5), rgba(236, 8, 159, 0.5), rgba(236, 8, 159, 0.8)), url("../image/roof_pattern.jpg");
 	background-size: cover;
 	height: 600px;
 }
@@ -112,7 +112,7 @@ img {
 .bg-start-blog {
 	color: #0D001A;
 	background-color: white;
-		background-image: linear-gradient(to bottom,rgba(255, 249, 214, 0.7), rgba(255, 249, 214, 0.9)), url("../image/champion-unsplash.jpg");
+	background-image: linear-gradient(to bottom,rgba(236, 8, 159, 0.4), rgba(236, 8, 159, 0.4), rgba(236, 8, 159, 0.4), rgba(236, 8, 159, 0.4), rgba(236, 8, 159, 0.5),rgba(236, 8, 159, 0.8)), url("../image/roof_pattern.jpg");
 	height: 350px;
 }
 
